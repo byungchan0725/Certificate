@@ -8,7 +8,7 @@
 지금까지는 ResultSet rs를 사용해서 switch를 사용했지만 if문으로 간단하게 해결할 수 있었다.
 
 예) rs.getString("gender")의 값이 "F", "M" 두 가지의 값이 있을 때 / F = 여자, M = 남자
-if(rs.getString("gender").eqlals == "F") gender = "여자"
+if(rs.getString("gender").eqlals(")) gender = "여자"
 else gender = "남자"
 
 위 처럼 사용이 가능하다.
