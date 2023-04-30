@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<footer>HRDKOREA Copyright@2019 All rights reserved. Human Resources Development Service of Korea.</footer>
+<footer>HRDKORA Copyright@2019 All rights reserved Human Resources Development Service of Korea.</footer>
 </body>
 </html>

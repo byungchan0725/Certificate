@@ -1,17 +1,17 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    <%@page import="java.sql.*"%>
 <%@ include file="dbconn.jsp" %>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="style.css">
 <title>Insert title here</title>
 </head>
 <body>
 <jsp:include page="header.jsp"></jsp:include>
 <section>
-	<h2><b>참가자 등수 조회</b></h2>
+	<h2>참가자 등수 조회</h2>
 	<table border="1">
 		<tr>
 			<td>참가번호</td>
@@ -39,9 +39,9 @@
 					<td><%=rs.getString(4) %></td>
 					<td><%=rs.getString(5) %></td>
 				</tr>
-				<%
+				<%		
 			}
-		} catch(Exception e){
+		}catch(Exception e){
 			e.printStackTrace();
 		}
 		%>
