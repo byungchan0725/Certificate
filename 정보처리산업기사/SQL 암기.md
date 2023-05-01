@@ -6,3 +6,6 @@ SQL문 정리하기
 	- 점수가 높은 순서대로 자동으로 점수를 매겨줌 
 	- 사용방법 
 	> RANK() OVER(ORDER BY 컬럼명 (ASC|DESC)) (AS 별칭)
+
+- group by 
+	- 집계함수 count, sum, avg 이런친구들을 썻다면 무조건 써주어야함!
