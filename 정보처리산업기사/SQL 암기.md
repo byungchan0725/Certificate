@@ -9,3 +9,10 @@ SQL문 정리하기
 
 - group by 
 	- 집계함수 count, sum, avg 이런친구들을 썻다면 무조건 써주어야함!
+
+- modify
+	- 수정을 하려면 번호에 href 태그를 달아서 페이지에 값을 전달해줄 수 있다.
+	> a href="modify.jsp?id=<%=rs.getString(1) %>"><%=rs.getString(1) %>/a
+
+- delete 
+	> a href="action.jsp?id=<%=rs.getString(1) %>&mode=delete"
