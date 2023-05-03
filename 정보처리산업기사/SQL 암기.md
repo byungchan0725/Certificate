@@ -16,3 +16,6 @@ SQL문 정리하기
 
 - delete 
 	> a href="action.jsp?id=<%=rs.getString(1) %>&mode=delete"
+- as 
+	> COUNT(A)라고 가정할 때 이 COUNT(A)를 as로 간단하게 부를 수 있다 <br>
+	> COUNT(A) as N
