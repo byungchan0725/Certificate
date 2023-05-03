@@ -19,3 +19,5 @@ SQL문 정리하기
 - as 
 	> COUNT(A)라고 가정할 때 이 COUNT(A)를 as로 간단하게 부를 수 있다 <br>
 	> COUNT(A) as N
+- group by 
+	- 집계함수 말고 select 에 있는거 다 적어주기 
