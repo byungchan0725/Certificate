@@ -31,12 +31,12 @@
 			while(rs.next()){
 				%>
 				<tr>
-					<td><a href="modify.jsp?pid=<%=rs.getString(1) %>"><%=rs.getString(1) %></a></td>
-					<td><%=rs.getString(2) %></td>
-					<td><%=rs.getString(3) %></td>
-					<td><%=rs.getString(4) %></td>
-					<td><%=rs.getString(5) %></td>
-					<td><a href="d-action.jsp?pid=<%=rs.getString(1) %>">삭제</a></td>
+					<td style="text-align: center"><a href="modify.jsp?pid=<%=rs.getString(1) %>"><%=rs.getString(1) %></a></td>
+					<td style="text-align: center"><%=rs.getString(2) %></td>
+					<td style="text-align: center"><%=rs.getString(3) %></td>
+					<td style="text-align: center"><%=rs.getString(4).substring(0,4)+"년"+rs.getString(4).substring(4,6)+"월"+rs.getString(4).substring(6,8)+"일" %></td>
+					<td style="text-align: center"><%=rs.getString(5) %></td>
+					<td style="text-align: center"><a href="d-action.jsp?pid=<%=rs.getString(1) %>">삭제</a></td>
 				</tr>
 				<%
 			}
